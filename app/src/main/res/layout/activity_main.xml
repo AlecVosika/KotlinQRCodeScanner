@@ -28,7 +28,6 @@
             android:layout_marginTop="16dp"
             android:textSize="26sp"
             android:textStyle="bold" />
-
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <com.google.android.material.bottomappbar.BottomAppBar
@@ -38,7 +37,7 @@
         android:layout_gravity="bottom"
         android:backgroundTint="#FFAB91"
         app:fabCradleMargin="10dp"
-        app:fabCradleRoundedCornerRadius="10dp"
+        app:fabCradleRoundedCornerRadius="25dp"
         app:fabCradleVerticalOffset="10dp"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -49,7 +48,20 @@
         app:tint="@android:color/white"
         android:src="@drawable/qrcode_scan"
         app:layout_anchor="@id/bottomAppBar"
-        android:contentDescription="KotlinQRCodeScanner" />
+        android:contentDescription="@string/kotlinqrcodescanner" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/scan_qr_to_vote"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"/>
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
