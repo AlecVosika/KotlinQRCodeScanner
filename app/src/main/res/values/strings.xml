@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">KotlinQRCodeScanner</string>
+    <string name="qrcode_symbol">qrcode symbol</string>
+</resources>
