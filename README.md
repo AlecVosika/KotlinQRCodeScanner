@@ -1,6 +1,7 @@
 # KotlinQRCodeScanner
 This is a Java-based Android project using Gradle for build automation and dependency management.
 ## Project Structure
+```
 .
 ├── .gitignore
 ├── .idea
@@ -40,6 +41,7 @@ This is a Java-based Android project using Gradle for build automation and depen
 ├── gradlew
 ├── gradlew.bat
 └── settings.gradle.kts
+```
 ## Getting Started
 To get a local copy up and running, follow these steps:
 1. Clone the repository.
